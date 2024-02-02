@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'rating.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'exchange_db',
+        'NAME': 'rating_db',
         'USER': 'db_user',
         'PASSWORD': 'db_password',
         'PORT': '5432',
